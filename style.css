@@ -642,3 +642,299 @@ h5 {
     font-size: 1.3rem;
     font-weight: 100;
 }
+
+.slider-text {
+    margin-top: 2rem;
+    background-color: bisque;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    /* position: relative; */
+    padding: 1rem;
+}
+
+.slider-text .slide {
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    animation: slide 10s linear infinite;
+    margin: auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+
+
+}
+
+.slider-text .slide img {
+    margin-right: .5rem;
+}
+
+.slider-text .slide p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.slider-text .slide p span {
+    color: orange;
+}
+
+.more-info {
+    margin-top: 2rem;
+    gap: 2rem;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    scroll-behavior: smooth;
+    z-index: -1;
+    height: 32rem;
+}
+
+.more-info::-webkit-scrollbar {
+    display: none;
+}
+
+.more-info-box img {
+    position: relative;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.box-content {
+    background-color: rgb(65, 12, 12);
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin-top: -20rem;
+    margin-left: 5rem;
+    position: relative;
+    color: white;
+}
+
+.box-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box-content h1 span {
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.box-content p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.box-content a i {
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+.home7-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(252, 230, 202);
+}
+
+.home7-container-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.home7-container .options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home7-container-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+    padding: 1rem 5rem;
+}
+
+.box-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* background-color: aquamarine; */
+}
+
+.home7-container-box .box-items .image {
+    border-radius: 1rem;
+
+}
+
+.home7-container-box .box-items .image img {
+    padding: 2rem 0rem 2rem 1rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+.box-items-content {
+    padding: 1rem 2rem 1rem 0rem;
+    color: rgb(9, 6, 6);
+}
+
+.box-items-content h1 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.box-items-content p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: .5rem;
+    color: gray;
+}
+
+.home7-anchor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.home7-anchor a {
+    padding: 0rem .5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.home8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+
+.home8 .home8-image img {
+    width: 90rem;
+    border-radius: 2rem;
+}
+
+.home8-content {
+    margin-top: -20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: white;
+    width: 75rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgb(221, 166, 166);
+}
+
+.home8-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: orange;
+}
+
+.home8-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.home8-content p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: black;
+}
+
+.home8-content h1,
+h2,
+p {
+    margin-left: 3rem;
+}
+
+.brand-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.brand-slider .slide {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    animation: slide 6s linear infinite;
+    margin: auto;
+}
+
+.brand-slider .slide img {
+    width: 10rem;
+}
+
+.home8-learn-more {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home8-learn-more button {
+    padding: 1rem 5rem;
+    border: .1rem solid orange;
+    border-radius: 2rem;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.home8-learn-more a {
+    font-size: 1.2rem;
+    color: rgb(46, 22, 5);
+    font-weight: 700;
+}
