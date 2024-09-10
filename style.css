@@ -15,6 +15,7 @@ nav {
     background-color: rgb(230, 197, 136);
     position: fixed;
     width: 95%;
+    z-index: 10;
 }
 
 nav .buttons {
@@ -87,7 +88,7 @@ nav .buttons button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10rem 10rem 1rem 10rem;
+    padding: 10rem 10rem 0rem 10rem;
 }
 
 .home1-content {
@@ -121,7 +122,8 @@ nav .buttons button {
 }
 
 .home1 .image img {
-    width: 20rem;
+    width: 25rem;
+    top: 10%;
 }
 
 
@@ -312,7 +314,6 @@ nav .buttons button {
     align-items: baseline;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    outline: none;
 }
 
 .form-input input {
@@ -464,4 +465,180 @@ h5 {
 .explore-doctors img {
     margin-bottom: 3rem;
     margin-top: 2rem;
+}
+
+.home5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+
+.mid-text h1 {
+    font-weight: 700;
+}
+
+.home5-container {
+    display: flex;
+    margin-top: 1rem;
+    gap: .5rem;
+    position: relative;
+    margin-right: -5rem;
+    margin-left: -5rem;
+}
+
+
+.home5-container {
+    width: 110%;
+    max-width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.home5-container::-webkit-scrollbar {
+    display: none;
+}
+
+.home5-container .box {
+    scroll-snap-align: center;
+    position: relative;
+}
+
+
+.home5-container .box .video {
+    display: flex;
+    margin-top: 1rem;
+    gap: .5rem;
+    position: relative;
+}
+
+.home5-container .box .video video {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.home6 {
+    background-color: rgb(254, 238, 218);
+    display: flex;
+}
+
+.home6-conatiner {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hospital-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+    gap: 3rem;
+    padding: 4rem 2rem;
+    width: 35rem;
+}
+
+.hospital-info h1 {
+    padding-right: 4rem;
+}
+
+.staff-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10rem;
+}
+
+#info2 img {
+    margin-left: -4.5rem;
+    position: relative;
+}
+
+#info2 .staff-info-content {
+    margin-left: 3rem;
+    position: relative;
+}
+
+#info3 img {
+    margin-left: -3.5rem;
+    position: relative;
+}
+
+#info3 .staff-info-content {
+    margin-right: -3rem;
+    position: relative;
+}
+
+.staff-info img {
+    width: 5rem;
+}
+
+.staff-info-content {
+    margin-left: 3rem;
+}
+
+.staff-info-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(66, 34, 34);
+}
+
+.staff-info-content p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    line-height: 2rem;
+}
+
+.staff-info-content span {
+    color: orange;
+}
+
+.meet-our-doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.meet-our-doctor .doctors-info {
+    display: flex;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    width: 50rem;
+}
+
+.meet-our-doctor .doctors-info::-webkit-scrollbar {
+    display: none;
+}
+
+.meet-our-doctor .doctors-info .doctor {
+    scroll-snap-align: center;
+    position: relative;
+}
+
+.meet-our-doctor .doctors-info .doctor img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.meet-our-doctor button {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    background-color: orange;
+    border: .1rem solid orange;
+    color: white;
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    font-weight: 100;
 }
