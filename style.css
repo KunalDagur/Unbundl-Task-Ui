@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: rgb(230, 197, 136);
+    position: fixed;
+    width: 95%;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+nav .buttons button {
+    padding: 1rem 1.5rem;
+    background-color: orange;
+    border: .1rem solid orange;
+    border-radius: 3rem;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name h1 {
+    color: orange;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.logo-name span {
+    color: brown;
+    font-weight: 700;
+    line-height: 1rem;
+    font-size: 2.2rem;
+    padding: .5rem;
+}
+
+.logo h3 {
+    color: brown;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: .2rem;
+}
+
+.menu .list-items {
+    display: flex;
+}
+
+.menu .list-items li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: rgba(40, 36, 36, 0.9);
+}
+
+.home1 {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 10rem 1rem 10rem;
+}
+
+.home1-content {
+    gap: 2rem;
+}
+
+.home1-content h1 {
+    font-size: 3.5rem;
+    color: violet;
+}
+
+.home1-content h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.home1-content h4 {
+    font-size: 1.5rem;
+    color: rgb(240, 194, 108);
+    line-height: 3rem;
+}
+
+.home1-content button {
+    background-color: orange;
+    color: white;
+    border: .1rem solid orange;
+    border-radius: 3rem;
+    padding: 1.2rem 7rem 1.2rem 7rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.home1 .image img {
+    width: 20rem;
+}
+
+
+.home2-container {
+    margin: 3rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.home2-content h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.home2-content h3 span {
+    color: orange;
+}
+
+.home2-content p {
+    font-size: 1.4rem;
+    line-height: 1rem;
+    font-weight: 300;
+}
+
+.home2-info {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: row;
+}
+
+.home2-info .google-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home2-info img {
+    width: 7rem;
+}
+
+.home2-info .reviews img {
+    width: 1rem;
+}
+
+.home2-info .bar {
+    height: 7rem;
+    width: .1rem;
+    background-color: rgb(240, 194, 108);
+    margin-left: 5rem;
+}
+
+.home2-info .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+.home2-info .location select {
+    padding: 1rem 10.5rem 1rem 1rem;
+    border-radius: 10rem;
+    border: .1rem solid gray;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.home2-info .location button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    border: .1rem solid orange;
+    background-color: orange;
+    color: white;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.home3 .home3-container {
+    background-color: rgb(248, 234, 209);
+    margin: 2rem 5rem;
+}
+
+.home3-container {
+    background-color: bisque;
+    padding: 2rem;
+    text-align: center;
+}
+
+.home3-container .text {
+    margin: 1rem 22rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-boxes {
+    display: grid;
+    padding: 2rem 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
+
+.container-boxes .box {
+    width: 30%;
+    margin: 1rem .1rem;
+    background-color: whitesmoke;
+    padding: 2rem 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.container-boxes .box img {
+    margin-bottom: 1rem;
+    width: 2rem;
+}
+
+.home3-container .explore-treatments a {
+    color: brown;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: .3rem;
+
+}
+
+.home4-container {
+    background-color: coral;
+    padding: 2rem;
+    margin: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-consult {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0rem;
+    width: 35rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.book-consult .content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-left: 6rem;
+    margin-right: 5rem;
+}
+
+.book-consult .content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.book-consult .content p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.form-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    outline: none;
+}
+
+.form-input input {
+    outline: none;
+    padding: 1.25rem 7rem 1.25rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    border: .1rem solid orange;
+    color: gray;
+    font-weight: 200;
+    font-size: 1.1rem;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-input select {
+    padding: 1.25rem 12.25rem 1.25rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    border: .1rem solid orange;
+    color: gray;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+.form-input button {
+    padding: 1.25rem 4.5rem;
+    background-color: orange;
+    border: .1rem solid orange;
+    color: white;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.consult-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.safety-protocol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkkhaki;
+    padding: 0rem .7rem 0rem 2rem;
+    margin-top: -2rem;
+}
+
+
+.safety-protocol .content {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+
+.safety-protocol .content h1 {
+    font-weight: 700;
+    line-gap-override: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.safety-protocol .content p,
+h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: .7rem;
+}
+
+.safety-protocol .content .learn-more {
+    margin-top: 8rem;
+}
+
+
+.safety-protocol .image img {
+    width: 16rem;
+}
+
+.explore-more {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore-clinics {
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+.explore-clinics h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.explore-clinics p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.explore-clinics img {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.explore-doctors {
+    margin-left: 1rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darksalmon;
+}
