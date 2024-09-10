@@ -263,7 +263,6 @@ nav .buttons button {
 }
 
 .home4-container {
-    background-color: coral;
     padding: 2rem;
     margin: 3rem 5rem;
     display: flex;
@@ -448,6 +447,7 @@ h5 {
     align-items: center;
     justify-content: center;
     background-color: darksalmon;
+    border-radius: .5rem;
 }
 
 .explore-doctors h1 {
