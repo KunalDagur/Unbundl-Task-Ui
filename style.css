@@ -215,6 +215,13 @@ nav .buttons button {
     font-size: 1.3rem;
 }
 
+.home3 {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .home3 .home3-container {
     background-color: rgb(248, 234, 209);
     margin: 2rem 5rem;
@@ -240,10 +247,9 @@ nav .buttons button {
 
 .container-boxes .box {
     width: 30%;
-    margin: 1rem .1rem;
+    margin: 1rem 1rem;
     background-color: whitesmoke;
     padding: 2rem 4rem;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,6 +260,13 @@ nav .buttons button {
 .container-boxes .box img {
     margin-bottom: 1rem;
     width: 2rem;
+}
+
+.container-boxes .box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0rem;
 }
 
 .home3-container .explore-treatments a {
@@ -291,7 +304,7 @@ nav .buttons button {
     flex-direction: column;
     align-items: baseline;
     justify-content: baseline;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-right: 5rem;
 }
 
@@ -367,7 +380,7 @@ nav .buttons button {
     align-items: center;
     justify-content: center;
     background-color: darkkhaki;
-    padding: 0rem .7rem 0rem 2rem;
+    padding: 0rem .7rem 0rem 1rem;
     margin-top: -2rem;
     border-radius: 1rem;
 }
@@ -378,7 +391,7 @@ nav .buttons button {
     align-items: baseline;
     flex-direction: column;
     justify-content: baseline;
-
+    margin-left: 0rem;
 }
 
 .safety-protocol .content h1 {
@@ -433,6 +446,7 @@ h5 {
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
+    margin-left: 0rem;
 }
 
 .explore-clinics img {
@@ -460,6 +474,7 @@ h5 {
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
+    margin-left: 0rem;
 }
 
 .explore-doctors img {
@@ -505,6 +520,10 @@ h5 {
 .home5-container .box {
     scroll-snap-align: center;
     position: relative;
+}
+
+.home5-container .box .info p {
+    margin-left: 0rem;
 }
 
 
@@ -606,13 +625,14 @@ h5 {
 }
 
 .meet-our-doctor .doctors-info {
+    width: 50rem;
     display: flex;
     gap: 1rem;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     overflow-x: scroll;
-    width: 50rem;
 }
+
 
 .meet-our-doctor .doctors-info::-webkit-scrollbar {
     display: none;
@@ -623,11 +643,25 @@ h5 {
     position: relative;
 }
 
+.meet-our-doctor .doctors-info .doctor .doctor-image {
+    display: flex;
+    position: relative;
+}
+
 .meet-our-doctor .doctors-info .doctor img {
     width: 20rem;
     height: 20rem;
     border-radius: 2rem;
 }
+
+.meet-our-doctor .doctors-info .doctor .doctor-content p {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-left: 0rem;
+}
+
+
 
 .meet-our-doctor button {
     display: flex;
@@ -745,6 +779,8 @@ h5 {
     font-size: 1.2rem;
     font-weight: 100;
     line-height: 1.5rem;
+    margin-left: 0rem;
+    padding-top: 1rem;
 }
 
 .box-content a {
@@ -826,6 +862,7 @@ h5 {
     font-weight: 300;
     line-height: .5rem;
     color: gray;
+    margin-left: 0rem;
 }
 
 .home7-anchor {
@@ -937,4 +974,202 @@ p {
     font-size: 1.2rem;
     color: rgb(46, 22, 5);
     font-weight: 700;
+}
+
+
+.home9 {
+    display: flex;
+    margin: 2rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home9-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 5rem 4rem;
+    border-radius: 2rem;
+}
+
+.home9-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.home9-text h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.home9-text p {
+    text-align: center;
+    margin-left: -.5rem;
+    font-weight: 2rem;
+    font-weight: 500;
+}
+
+.home9-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.box-item {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    align-items: center;
+
+}
+
+.box-item img {
+    width: 10rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.box-item p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 0rem;
+}
+
+.home10 {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin: 5rem 15rem;
+}
+
+.home10-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.home10-container .questions-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.home10-container .questions-box .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .1rem solid gray;
+    padding: 1rem;
+}
+
+.home10-container .questions-box .question h4 {
+    margin-right: 5rem;
+}
+
+.home10-container .questions-box .question i {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.home11 {
+    background-color: rgb(50, 25, 8);
+    color: white;
+}
+
+.home11-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 3rem;
+}
+
+.treatments,
+.quick-links,
+.explore-clove,
+.legal,
+.connect-with-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.treatments h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.quick-links h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.explore-clove h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.legal h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.connect-with-us h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.home11-container ul li {
+    list-style: none;
+    margin-bottom: .8rem;
+    color: gray;
+}
+
+.home11-container ul li:hover {
+    cursor: pointer;
+}
+
+.home11-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home11-logo h1 {
+    font-size: 12rem;
+    font-weight: 600;
+}
+
+.home11-logo p {
+    font-size: 4rem;
+}
+
+footer {
+    background-color: rgb(50, 25, 8);
+    /* display: flex; */
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+button:hover {
+    background-color: rgb(200, 131, 5);
+    transition: 1s;
+    cursor: pointer;
 }
